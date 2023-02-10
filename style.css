@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'Kenyan';
+    src: url('kenyan coffee rg.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Acumin';
+    src: url('Acumin-Variable-Concept.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-color: black;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    background-color: #3a003c;
+}
+
+.cabecalho-imagem {
+    width: 140px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 45px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Kenyan', sans-serif;
+    color: white;
+    font-size: 23px;
+}
+
+.conteudo {
+    border-top: 0.4px solid white;
+    margin-bottom: 40px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Kenyan';
+    font-size: 64px;
+    color: white;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Acumin';
+    font-size: 30px;
+    color: white;
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: white;
+    width: 180px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(255, 255, 255, 0.25);
+    font-family: 'Acumin';
+    font-size: 22px;
+    color: black;
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: rgba(236, 214, 196, 0.445);
+}
+
+.conteudo-principal-imagem {
+    height: 320px;
+    margin-top: 42px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 28px;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid white;
+    padding-top: 40px;
+    margin-bottom: 18px;
+    font-family: 'Kenyan';
+    font-size: 30px;
+    color: white;
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: 'Acumin';
+    font-size: 18px;
+    color: white;
+}
+
+
+.rodape {
+    border-top: 0.4px solid white;
+    padding: 32px;
+}
+
+.rodape-imagem {
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+}
